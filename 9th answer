@@ -1,0 +1,8 @@
+lbs=0.45359237
+N=int(input('Enter the number of Students'));
+N1=[];
+for i in range(N):
+    N1.append(int(input('enter the element')));
+Weights=[lbs *i for i in N1]
+print(Weights)
+
