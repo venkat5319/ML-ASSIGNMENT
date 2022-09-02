@@ -1,0 +1,31 @@
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'};
+lenght=len(it_companies);
+print(lenght);
+it_companies.add('twitter');
+print(it_companies);
+MNCS=('AB Technologies','TCS','Accenture','ADP');
+it_companies.update(MNCS);
+print(it_companies);
+it_companies.remove('ADP');
+print(it_companies);
+##Remove:Error message will be poped on the screen when there is no element in the set which we want to remove.
+#dicord: discard function removes the element.but not populates any error message even there is no element we want to discard.
+A = {19, 22, 24, 20, 25, 26};
+B = {19, 22, 20, 25, 26, 24, 28, 27};
+print(A.union(B));
+print(A.intersection(B));
+print(A.issubset(B));
+print(A.isdisjoint(B));
+print(A.union(B)&B.union(A));
+print(A.symmetric_difference(B));
+A.clear();
+print(A);
+age = [22, 19, 24, 25, 26, 24, 25, 24];
+AG=len(age);
+print(AG);
+SG=set(age);
+print(SG);
+lenght=len(SG);
+print(lenght);
+
+
