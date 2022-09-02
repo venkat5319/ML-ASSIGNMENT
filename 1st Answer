@@ -1,0 +1,22 @@
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+p = min(ages)
+q = max(ages)
+print(p)
+print(q)
+ages.append(p)
+print(ages)
+ages.append(q)
+print(ages)
+r = len(ages)
+print(r)
+s =(r-1)//2
+print(s)
+median1 = (ages[s] + ages[s+1])/2
+print(median1)
+sum1 = sum(ages)
+print(sum1)
+avg = sum1/r
+print(avg)
+range1 = q-p
