@@ -1,0 +1,27 @@
+dog = dict()
+dog["name"] = "Lab"
+dog["color"] = "White"
+dog["breed"] = "Hasky"
+dog["legs"] = 4
+dog["age"] = 3
+print(dog)
+
+student = dict()
+student["first_name"] = "Venkat"
+student["last_name"] = "Ravuri"
+student["gender"] = "male"
+student["age"] = 24
+student["marital status"] = "Single"
+student["skills"] = ["Java", "Machine language"]
+student["country"] = "India"
+student["city"] = "Hyderabad"
+student["address"] = "8-2-293/82/16/a/1"
+print(student)
+length1 = len(student)
+print(length1)
+print(student["skills"])
+print(type(student["skills"]))
+student["skills"].extend(["Java", "Machine learning"])
+print(student["skills"])
+print(student.keys())
+print(student.values())
