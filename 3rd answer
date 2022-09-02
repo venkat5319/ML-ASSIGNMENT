@@ -1,0 +1,8 @@
+brothers = ("Venkatesh", "Yedukondalu", "Govind");
+sisters = ("Prashanthi", "Durga", "Hemu" );
+siblings = sisters + brothers;
+print(siblings);
+length1 = (siblings);
+print(length1);
+family_members = siblings + ("Ravuri Koteshwar rao", "Ravuri Tirupatamma");
+print(family_members);
